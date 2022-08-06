@@ -174,7 +174,7 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../img/3-l.jpg');
+    background: url('../img/breno-assis-r3WAWU5Fi5Q-unsplash.jpg');
     background-size: cover;
     height: 75vh;
     display: flex;
@@ -242,10 +242,10 @@ main .blog-content span{
     display: block;
 }
 main .blog-content img{
-    height: 180px;
+    height: 210px;
 }
 .post-image img {
-    height: 500px;
+    height: 700px;
 }
 
 section .container .owl-nav{
