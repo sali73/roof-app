@@ -152,7 +152,9 @@ p{
     padding: 1rem 0;
     display: block;
     font-family: var(--Lexend);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    color: blueviolet;
+    font-weight: 900;
 }
 
 .nav .social{
@@ -174,7 +176,7 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../img/breno-assis-r3WAWU5Fi5Q-unsplash.jpg');
+    background: url('../img/1.JPG');
     background-size: cover;
     height: 75vh;
     display: flex;
