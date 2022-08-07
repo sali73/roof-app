@@ -478,7 +478,7 @@ footer.footer .newsletter .form-element span{
 footer.footer .instagram div > img{
     display: inline-block;
     width: 25%;
-    height: 50%;
+    height: 30%;
     margin: .3rem .4rem;
 }
 
@@ -587,3 +587,151 @@ footer.footer .move-up span:hover{
 }
 
 /*        x      Viewport less then or equal to 520px       x     */
+
+
+
+.review{
+    background-color: #0f0f0f;
+    box-shadow: 0 0 8px rgb(66, 66, 66);
+    border: 1px solid rgb(87, 86, 86);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* display: flex; */
+  }
+  .review-parts {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+  }
+  .reviews-window{
+    height: 290px;
+    overflow: scroll;
+    width: 400px;
+  }
+  .review h3{
+    text-align: center;
+    /* color: rgb(17, 64, 196); */
+    color: rgb(168, 54, 255);
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  .review-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .review-card div{
+    border-radius: 3%;
+    border: 1px solid rgb(250, 247, 247);
+    background-color: rgb(250, 247, 247);
+    margin: 10px;
+    padding: 10px;
+    height: 140px;
+    width: 300px;
+    box-shadow: 0 0 8px rgb(87, 86, 86);
+  }
+  .review-card h6{
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+    height: 100px;
+    overflow: auto;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  .review-card h3{
+    color: rgb(53, 53, 53);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(221, 221, 222);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .review-form{
+    margin-left: 1%;
+  }
+  .review-form h3{
+    text-align: center;
+    margin-top: 5px;
+  }
+  .review-form-fields{
+    margin-left: 30%;
+  }
+  #tbName {
+    margin-bottom: 20px; 
+    width: 57%; 
+    padding-right: 10px;
+  }
+  #txComment{
+    width: 57%;
+  }
+  #btnSubmitComment{
+    padding: 5px 10px;
+    background-color:rgb(168, 54, 255);
+    color: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5%;
+  }
+  .review-form h5{
+    font-size: 25px;
+    color: rgb(236, 232, 232);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 1px;
+    line-height: 40px;
+    font-weight: 800;
+  }
+  /* contact */
+  .contact-form {
+    width: 400px;
+    padding: 20px;
+    margin: 30px 10px;
+  }
+  .contact-form h1{
+    color:rgb(168, 54, 255);
+  }
+  .contact-form input , .contact-form textarea {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: none;
+    font-size: medium;
+    margin: 10px;
+  }
+  .contact-form .submit{
+    margin: 10px;
+  }
+  .no-outline:focus {
+    outline: none;
+  }
+  .btns{
+    margin: .5rem;
+    background: var(--sky);
+    color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+}
+.btns:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: rgb(168, 54, 255);
+}
+.textarea {
+    width: 400px;
+    height: 120px;
+    background-color: rgb(221, 221, 222)
+  }
+.submit{
+    display: flex;
+}
