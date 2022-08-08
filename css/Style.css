@@ -591,11 +591,10 @@ footer.footer .move-up span:hover{
 
 
 .review{
-    background-color: #ffffff;
     box-shadow: 0 0 8px rgb(66, 66, 66);
     border: 1px solid rgb(87, 86, 86);
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
     /* display: flex; */
     /* background-image: url('../img/istok/cartoon.JPG');
     background-size: cover; */
@@ -612,7 +611,6 @@ footer.footer .move-up span:hover{
   }
   .review h3{
     text-align: center;
-    /* color: rgb(17, 64, 196); */
     color: rgb(168, 54, 255);
     font-size: 30px;
     margin-top: 5px;
@@ -622,6 +620,7 @@ footer.footer .move-up span:hover{
     flex-wrap: wrap;
     justify-content: center;
   }
+  /* chat box */
   .review-card div{
     border-radius: 3%;
     border: 1px solid rgb(250, 247, 247);
@@ -631,6 +630,7 @@ footer.footer .move-up span:hover{
     height: 140px;
     width: 300px;
     box-shadow: 0 0 8px rgb(87, 86, 86);
+    word-wrap: break-word;
   }
   .review-card h6{
     color: rgb(5, 5, 5);
