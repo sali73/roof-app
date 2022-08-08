@@ -597,14 +597,16 @@ footer.footer .move-up span:hover{
     background-size: cover;
     background-repeat: no-repeat;
     /* display: flex; */
-    background-image: url('../img/1.JPG');
+    /* background-image: url('../img/istok/cartoon.JPG');
+    background-size: cover; */
+    background-color: #232323
   }
   .review-parts {
-    background-color: rgb(78, 78, 78);
+    background-color: #232323;
     padding: 10px;
   }
   .reviews-window{
-    height: 290px;
+    height: 690px;
     overflow: scroll;
     width: 400px;
   }
