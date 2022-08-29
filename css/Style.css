@@ -498,8 +498,9 @@ footer.footer .rights h4 a{
 
 footer.footer .move-up{
     position: absolute;
-    right: 6%;
-    top: 50%;
+    right: 4%;
+    top: 90%;
+    position: fixed;
 }
 
 footer.footer .move-up span{
