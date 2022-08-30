@@ -777,13 +777,8 @@ footer.footer .move-up span:hover{
         position: absolute;
         top: -10%;
     }
-    
-    .owl-nav .owl-prev .owl-nav-prev,
-    .owl-nav .owl-next .owl-nav-next{
-        color: var(--text-gray);
-        background: transparent;
-        font-size: 2rem;
-    }
+
+
 
  
     .review{
