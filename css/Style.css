@@ -760,7 +760,7 @@ footer.footer .move-up span:hover{
         justify-content: center;
     }
     main .site-title .site-background{
-        padding-top: 11rem;
+        padding-top: 21rem;
         text-align: center;
         color: var(--white);
     }
@@ -779,7 +779,7 @@ footer.footer .move-up span:hover{
     }
     section .container .owl-nav{
         position: absolute;
-        top: 3%;
+        top: -5%;
     }
     .blog{
         margin-top: -50px;
