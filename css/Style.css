@@ -760,13 +760,17 @@ footer.footer .move-up span:hover{
         justify-content: center;
     }
     main .site-title .site-background{
-        padding-top: 1.8rem;
+        padding-top: 9rem;
         text-align: center;
         color: var(--white);
     }
-    main .site-title h1, h3{
+    main .site-title h1{
         margin: .3rem;
-        font-size:xx-small ;
+        font-size:medium ;
+    }
+    main .site-title h2{
+       
+        font-size:small ;
     }
  
     main .site-title .btn{
