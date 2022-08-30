@@ -760,7 +760,7 @@ footer.footer .move-up span:hover{
         justify-content: center;
     }
     main .site-title .site-background{
-        padding-top: 1rem;
+        padding-top: 1.8rem;
         text-align: center;
         color: var(--white);
     }
@@ -773,7 +773,18 @@ footer.footer .move-up span:hover{
         margin: 1rem;
         background: var(--sky);
     }
+    section .container .owl-nav{
+        position: absolute;
+        top: -10%;
+    }
     
+    .owl-nav .owl-prev .owl-nav-prev,
+    .owl-nav .owl-next .owl-nav-next{
+        color: var(--text-gray);
+        background: transparent;
+        font-size: 2rem;
+    }
+
  
     .review{
         margin-top: -100px;
