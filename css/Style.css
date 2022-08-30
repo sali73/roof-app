@@ -753,11 +753,28 @@ footer.footer .move-up span:hover{
     }
     main .site-title{
         background: url('../img/mobil-background.JPG');
-        background-size: cover;
+        background-size:250% ;
+        background-repeat: no-repeat;
         height: 75vh;
         display: flex;
         justify-content: center;
     }
+    main .site-title .site-background{
+        padding-top: 1rem;
+        text-align: center;
+        color: var(--white);
+    }
+    main .site-title h1, h3{
+        margin: .3rem;
+        font-size:xx-small ;
+    }
+ 
+    main .site-title .btn{
+        margin: 1rem;
+        background: var(--sky);
+    }
+    
+ 
     .review{
         margin-top: -100px;
     }
