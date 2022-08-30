@@ -752,8 +752,8 @@ footer.footer .move-up span:hover{
         transition: all 1s ease;
     }
     main .site-title{
-        background: url('../img/istok/home+.JPG');
-        width: 100%;
+        background: url('../img/mobil-background.JPG');
+        background-size: cover;
         height: 75vh;
         display: flex;
         justify-content: center;
@@ -785,6 +785,9 @@ footer.footer .move-up span:hover{
     .contact-form input , .contact-form textarea {
         font-size: small;
         margin-right: 40px;
+    }
+    .form-groups{
+        margin-left: 34px;
     }
 }
 /*        x      Viewport less then or equal to 520px       x     */
