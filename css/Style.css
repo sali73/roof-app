@@ -804,7 +804,7 @@ footer.footer .move-up span:hover{
       }
       /* contact */
     .contact-form {
-        width: 230px;
+        width: 250px;
         padding: 5px;
         margin-right: 30px ;
     }
@@ -815,6 +815,9 @@ footer.footer .move-up span:hover{
     .contact-form input , .contact-form textarea {
         font-size: small;
         margin-right: 40px;
+    }
+    .her{
+        display: none;
     }
     .form-groups{
         margin-left: 34px;
