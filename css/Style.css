@@ -779,10 +779,12 @@ footer.footer .move-up span:hover{
     section .container .owl-nav{
         position: absolute;
         top: -5%;
+        bottom: -10%;
     }
     .blog{
-        margin-top: -120px;
+        margin-top: -70px;
     }
+ 
 
 
 
